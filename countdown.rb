@@ -1,5 +1,4 @@
 #write your code here
-number = 9
 
 def countdown(number)
   until number == 0
