@@ -1,20 +1,20 @@
 #write your code here
 
 def countdown(integer)
-  until number == 0
-    number -= 1
-    puts "#{number} SECOND(S)!"
+  until integer == 0
+    integer -= 1
+    puts "#{integer} SECOND(S)!"
   end
   return "HAPPY NEW YEAR!"
 end
   
 
 
-def countdown_with_sleep(number)
+def countdown_with_sleep(integer)
   
-  until number == 0
-    number -= 1
-    puts "#{number} SECOND(S)!"
+  until integer == 0
+    integer -= 1
+    puts "#{integer} SECOND(S)!"
   end
   sleep 5
   return "HAPPY NEW YEAR!"
